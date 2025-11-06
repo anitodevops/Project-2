@@ -40,8 +40,8 @@ pipeline {
 		withAWS(credentials: 'aws-creds') {
 			sh """
 				aws eks update-kubeconfig --name trendstore --region ap-south-1
-				kubectl apply -f deployment.yml
-				kubectl apply -f service.yml
+				kubectl apply -f deployment.yaml
+				kubectl apply -f service.yaml
 				kubectl describe svc trendstore-svc
 			"""
 		}	
