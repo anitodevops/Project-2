@@ -1,0 +1,17 @@
+prometheus:
+  prometheusSpec:
+    additionalScrapeConfigs:
+      - job_name: 'application-health'
+        metrics_path: /probe
+        params:
+          module: [http_2xx]
+        static_configs:
+          - targets:
+            - http://ac957fecbfd2a47169c85cada240a267-1342207695.ap-south-1.elb.amazonaws.com:80
+        relabel_configs:
+          - source_labels: [__address__]
+            target_label: __param_target
+          - target_label: __address__
+            replacement: blackbox-exporter-prometheus-blackbox-exporter.default.svc.cluster.local:9115
+          - source_labels: [__param_target]
+            target_label: instance
