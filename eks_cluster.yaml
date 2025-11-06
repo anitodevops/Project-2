@@ -1,0 +1,40 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: trendstore
+  region: ap-south-1
+  version: "1.29"
+
+vpc:
+  id: "vpc-0b3ae351880ebcc85"
+  subnets:
+    public:
+      public-subnet-1:
+        id: "subnet-095505c2594c65e79"
+      public-subnet-2:
+        id: "subnet-06263f9d590233167"
+    private:
+      private-subnet-1:
+        id: "subnet-01dc6cdd7f9b27bc8"
+      private-subnet-2:
+        id: "subnet-061b47b044e072731"
+
+iam:
+  serviceRoleARN: "arn:aws:iam::224679997553:role/eks_cluster_role"
+
+managedNodeGroups:
+  - name: node-group
+    instanceType: t3.medium
+    amiFamily: Ubuntu2204
+    volumeSize: 20
+    desiredCapacity: 2
+    minSize: 1
+    maxSize: 3
+    iam:
+      instanceRoleARN: "arn:aws:iam::224679997553:role/eks_nodegroup_role"
+    ssh:
+      allow: true
+      publicKeyName: testkey
+    securityGroups:
+      attachIDs: ["sg-028cc024b89bc4e2d"]
