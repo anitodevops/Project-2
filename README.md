@@ -5,13 +5,13 @@
 
 ### Table Of Contents 
 
--	[Goal]
--	[Pre-Requisites]
--	[Application Deployment Architecture]
--	[Architecture Overview]
--	[Steps to Build, Deploy & Monitor]
--	[Links]
--	[Outcome]
+-	[Goal](https://github.com/anitodevops/Project-2#goal)
+-	[Pre-Requisites](https://github.com/anitodevops/Project-2#pre-requisites)
+-	[Application Deployment Architecture](https://github.com/anitodevops/Project-2#application-deployment-architecture)
+-	[Architecture Overview](https://github.com/anitodevops/Project-2#architecture-overview)
+-	[Steps to Build, Deploy & Monitor](https://github.com/anitodevops/Project-2#steps-to-build-deploy-monitor)
+-	[Links](https://github.com/anitodevops/Project-2#links)
+-	[Outcome](https://github.com/anitodevops/Project-2#outcome)
 
 ## Goal
 
@@ -41,25 +41,34 @@ Deploy the React Application to a Production Ready State & to ensure that it run
 > Below is the step-by-step implementation breakdown of the complete DevOps CD process.
 
 [Step 1: Infrastructure Provisioning (Terraform)](https://github.com/anitodevops/Project-2/blob/main/Steps/Step1.md)
+
 [Step 2: Setup Git Repository](https://github.com/anitodevops/Project-2/blob/main/Steps/Step2.md)
+
 [Step 3: Dockerize the Application](https://github.com/anitodevops/Project-2/blob/main/Steps/Step3.md)
+
 [Step 4: Setup DockerHub Repository](https://github.com/anitodevops/Project-2/blob/main/Steps/Step4.md)
+
 [Step 5: EKS Cluster Creation](https://github.com/anitodevops/Project-2/blob/main/Steps/Step5.md)
+
 [Step 6: K8's Object Creation](https://github.com/anitodevops/Project-2/blob/main/Steps/Step6.md)
+
 [Step 7: Jenkins Pipeline Setup](https://github.com/anitodevops/Project-2/blob/main/Steps/Step7.md)
+
 [Step 8: GitHub Webhook Setup](https://github.com/anitodevops/Project-2/blob/main/Steps/Step8.md)
+
 [Step 9: Validate Jenkins Pipeline](https://github.com/anitodevops/Project-2/blob/main/Steps/Step9.md)
+
 [Step 10: Setup Monitoring](https://github.com/anitodevops/Project-2/blob/main/Steps/Step10.md)
+
 [Step 11: Dashboard Creation](https://github.com/anitodevops/Project-2/blob/main/Steps/Step11.md)
 
 ## Links
 
--	Application LoadBalancer URL:  http://3.109.108.249:
+-	Application LoadBalancer URL:  http://ac04a9310846543e5a0c2f0b39daa023-1003803771.ap-south-1.elb.amazonaws.com
+<img width="468" height="15" alt="image" src="https://github.com/user-attachments/assets/7742f60e-558e-427f-8f6b-7a2eb32c2139" />
 -	Jenkins: http://3.109.186.176:8080/
 -	Dockerhub: https://hub.docker.com/repository/docker/anitodevops/trendstore/general
--	Github - https://github.com/anitodevops/Project-2
--	Grafana : http://a2a36a787160d44e29d0de2b3c3778bb-1965368686.ap-south-1.elb.amazonaws.com:80
--	Prometheus: http://a0ef367f82639409a9b085d53c69f022-2074004483.ap-south-1.elb.amazonaws.com:9090/targets
+
 
 ## Outcome
 
