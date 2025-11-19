@@ -62,7 +62,8 @@
 Note: 
 Use `terraform destroy ` to terminates all resources in ec2 &  deletes contents of statefile.
 
-11.**Validate packages & services in Jenkins Server**
+11. **Validate packages & services in Jenkins Server**
+
 	```
 	docker -v
 	
