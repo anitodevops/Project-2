@@ -64,9 +64,10 @@ Deploy the React Application to a Production Ready State & to ensure that it run
 
 ## Links
 
--	Application LoadBalancer URL:  http://ac04a9310846543e5a0c2f0b39daa023-1003803771.ap-south-1.elb.amazonaws.com
-<img width="468" height="15" alt="image" src="https://github.com/user-attachments/assets/7742f60e-558e-427f-8f6b-7a2eb32c2139" />
+-	Application LoadBalancer URL: http://ac04a9310846543e5a0c2f0b39daa023-1003803771.ap-south-1.elb.amazonaws.com
+
 -	Jenkins: http://3.109.186.176:8080/
+  
 -	Dockerhub: https://hub.docker.com/repository/docker/anitodevops/trendstore/general
 
 
