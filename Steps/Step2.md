@@ -2,7 +2,7 @@
 
 ### Create a new git repository – Project-2
 
-##### Go to Home page -> click on Repositories -> click New -> enter repository name, description, choose desired visibility (Public/Private) -> click create
+### Go to Home page -> click on Repositories -> click New -> enter repository name, description, choose desired visibility (Public/Private) -> click create
 
 ### Generate an Access Token
 
