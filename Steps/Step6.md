@@ -1,5 +1,5 @@
 
-# Step 6:  Create K8's Objects
+# Step 6: K8's Object Creation
 
 ### Create Deployment manifest file with below specification.
 
