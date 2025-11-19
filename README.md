@@ -15,7 +15,7 @@
 
 ## Goal
 
-Deploy the React Application to a Production Ready State & to ensure that it runs on Port 3000.
+To build, deploy & fully automate the Trenstore Application into a Production Ready State using Terraform for infrastructure, Docker for containerization, AWS EKS for Orchestration & Jenkins for CI/CD on Port 3000 & Seemlessly monitor & visulaize metrics using Prometheus & Grafana.
 
 ## Pre-Requisites
 -	[AWS Account](https://signin.aws.amazon.com/signup?request_type=register)
